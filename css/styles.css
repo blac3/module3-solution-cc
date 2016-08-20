@@ -1,0 +1,72 @@
+#header-nav .navbar-header {
+	height: 100px;
+	width: 100%;
+}
+
+
+#nav-list li {
+	background-color: #900c3f;
+	border: 1px solid black;
+	margin-right: -1px;
+
+}
+
+.navbar-collapse {
+	overflow-x: hidden;
+}
+
+.navbar-default {
+	position: relative;
+}
+
+.navbar-default .navbar-nav>li>a { /* "chicken, beef, sushi" */
+	color: #daf7a6;
+	text-align: center;
+	font-size: 1.2em;
+	margin: 4px auto 4px;
+	padding: 10px;
+	vertical-align: middle;
+
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-brand h1 { /* "food, llc" */
+	margin-bottom: 30px;
+}
+
+.text-center { /* "Our Menu" */
+	margin-bottom: 30px;
+	font-size: 2em;
+}
+
+.chicken-section p {
+	position: relative;
+	color: red;
+	border: 1px solid black;
+	height: 1000px;
+	margin-bottom: 40px;
+	padding: 40px 15px 15px;
+}
+#chicken-a, #chicken-b, #chicken-c {
+	color: yellow;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 1px solid black;
+	padding: 5px 5px 0px 5px;
+	background-color: black;
+	width: 100%;
+	opacity: .8;
+	text-align: center;
+	padding: 5px;
+	font-size: 1.5em;
+}
+
+.chicken-section #back-a, .chicken-section #back-b, .chicken-section #back-c {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
